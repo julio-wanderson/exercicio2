@@ -1,40 +1,74 @@
-/**INDEX*/
 body{
-    background-color: rgb(227, 238, 201);
+background-color: rgb(227, 238, 201);
 }
+
 h1{
-background-color: rgb(23, 173, 61);
+background-color:  rgb(23, 173, 61);
 margin: auto;  
 font-family: Verdana;
-border: 50px solid  rgb(23, 173, 61);   
+border: 5px solid black;  
+padding: 1.1%;
 }
 
 nav{
-color: blue;
-font-family: Georgia, 'Times New Roman', Times, serif;
+font-family: Arial, Helvetica, sans-serif;
+font-weight: bold;
 font-size: 20px;
-font-style: oblique;
+font-style: italic;
+color: blue;
 background-color:rgb(99, 186, 212);
 width:250px;
 line-height: 5;
-
-
+float: left;
+border: 5px solid black;  
 }
+
 a:link { 
- text-decoration:none; 
- 
+text-decoration:none; 
 }
 
-
-
- li{
-    list-style-type: none;
-    
-  }
+li{
+list-style-type: none;
+}
 
 p{
-    color: red;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 30px;
-    
+color: lightcoral;
+font-family: Arial, Helvetica, sans-serif;
+font-weight: bold;
+font-size: 30px;
+font-style: italic;
+text-align: center;
+}
+
+img{
+display: block;
+margin-left: auto;
+margin-right: auto;
+}
+
+#formulario{
+text-align: center;
+}
+
+input{
+font: 18px sans-serif;
+width: 300px;
+box-sizing: border-box;
+border: 2px solid rgb(153, 153, 153);
+}
+
+#bt1{ 
+color: white;
+border: 0pt seagreen ;
+background-color:seagreen;
+}
+  
+label {
+display: inline-block;
+width: 100px;        
+}
+
+#bt {
+width: 200px;
+display: inline-block;
 }
